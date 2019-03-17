@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: '_HSM0012_CasualSofa_V402___Default',
+      parameters: [
+        {
+          baseColor: 'CasualSofa_Diff',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/HSM0012_v2_L1.123c657d0540-df2a-436a-b9cd-f1e9bb75806a/HSM0012.obj',
+    name: 'HSM0012',
+    recenter: 'root',
+    scale: 0.010899000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/HSM0012_v2_L1.123c657d0540-df2a-436a-b9cd-f1e9bb75806a\\CasualSofa_Diff.jpg',
+      name: 'CasualSofa_Diff',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'CasualSofa_Diff.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
